@@ -69,12 +69,18 @@ page.init();
 
 document.getElementById('home').addEventListener('click', (e) => {
   page.change(new homeState);
+
+  e.preventDefault();
 });
 
 document.getElementById('about').addEventListener('click', (e) => {
   page.change(new aboutState);
+
+  e.preventDefault();
 });
 
 document.getElementById('contact').addEventListener('click', (e) => {
   page.change(new contactState);
+
+  e.preventDefault();
 });
