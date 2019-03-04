@@ -46,4 +46,4 @@ class EasyHTTP {
   }
 }
 
-export const http = new EasyHTTP(); 
+export const http = new EasyHTTP();
